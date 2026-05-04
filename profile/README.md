@@ -1,10 +1,10 @@
 # Harmony
 
-Harmony is an open-source, local-first AI development harness for coordinating models, agents, tools, permissions, reviews, and project memory.
+Harmony is an open-source, local-first AI development harness meant to replace scattered Codex, Claude Code, Cursor, and OpenCode-style workflows with one governed project runtime.
 
-It is built around a simple idea: the model is not the product. The system around the model is what makes AI-assisted development reliable.
+It is built around a simple idea: the coding agent is not the product. The runtime around the agent is what makes AI-assisted development reliable.
 
-Harmony helps developers keep multi-agent work structured by turning project context into durable artifacts:
+Harmony gives developers a single operating system for AI-assisted software work by turning project context into durable artifacts:
 
 - project constitutions
 - staged development pipelines
@@ -16,7 +16,7 @@ Harmony helps developers keep multi-agent work structured by turning project con
 - cross-model reviews
 - audit logs
 
-The goal is not to replace Codex, Claude Code, Cursor, OpenCode, MCP servers, or model providers. The goal is to give them a shared project brain so they can work together without losing context, drifting from decisions, or burning expensive model calls on work a cheaper model could safely handle.
+The goal is to replace the tool-chaos layer: the repeated prompting, context rebuilding, permission guessing, manual model picking, disconnected reviews, and expensive agent loops. Existing models, APIs, CLIs, and MCP servers can still become execution backends, but Harmony owns the workflow, policy, memory, routing, and acceptance gates.
 
 ## Core Principles
 
@@ -26,6 +26,7 @@ The goal is not to replace Codex, Claude Code, Cursor, OpenCode, MCP servers, or
 - The harness owns permissions, not the model.
 - Review before trust.
 - Local-first before cloud-first.
+- Replace fragmented agent workflows with one governed runtime.
 - Build for real developer workflows, not demo theater.
 
 ## Current Focus
