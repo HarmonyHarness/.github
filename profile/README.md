@@ -1,6 +1,6 @@
 # Harmony
 
-Harmony is an open-source, local-first AI development harness meant to replace scattered Codex, Claude Code, Cursor, and OpenCode-style workflows with one governed project runtime.
+Harmony is an open-source, UI-first, local-first AI development harness meant to replace scattered Codex, Claude Code, Cursor, and OpenCode-style workflows with one governed project runtime.
 
 It is built around a simple idea: the coding agent is not the product. The runtime around the agent is what makes AI-assisted development reliable.
 
@@ -31,7 +31,7 @@ The goal is to replace the tool-chaos layer: the repeated prompting, context reb
 
 ## Current Focus
 
-The first milestone is a CLI that initializes a `.harmony/` project brain, runs an adversarial council pass, generates a project constitution, and exports structured prompts and tasks for external agents.
+The first milestone is a local-first UI that opens a repo, initializes a `.harmony/` project brain, runs an adversarial council pass, generates a project constitution, and exports structured prompts and tasks for external agents.
 
 Minimum useful output:
 
@@ -47,4 +47,4 @@ Minimum useful output:
   reviews/
 ```
 
-Harmony starts as a practical local tool for one developer, then grows into a serious runtime for safer, cheaper, more reproducible agentic software development.
+Harmony starts as a practical local UI for one developer, then grows into a serious runtime for safer, cheaper, more reproducible agentic software development. CLI/headless automation can exist later, but it is not the primary product surface.
