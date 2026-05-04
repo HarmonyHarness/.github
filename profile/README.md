@@ -1,5 +1,7 @@
 # Harmony
 
+![Harmony wordmark](./assets/wordmark-lockup.png)
+
 Harmony is an open-source, native UI-first, local-first AI development harness meant to replace scattered Codex, Claude Code, Cursor, and OpenCode-style workflows with one governed project runtime.
 
 It is built around a simple idea: the coding agent is not the product. The runtime around the agent is what makes AI-assisted development reliable.
